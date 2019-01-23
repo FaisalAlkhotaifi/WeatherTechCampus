@@ -15,6 +15,8 @@
 		15B2953121F4A30A0010C644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B2952F21F4A30A0010C644 /* LaunchScreen.storyboard */; };
 		15B2953C21F4A30B0010C644 /* WeatherTechCampusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2953B21F4A30B0010C644 /* WeatherTechCampusTests.swift */; };
 		15B2954721F4A30B0010C644 /* WeatherTechCampusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2954621F4A30B0010C644 /* WeatherTechCampusUITests.swift */; };
+		15B2955521F4B4070010C644 /* GetWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2955421F4B4070010C644 /* GetWeather.swift */; };
+		15B2955721F4BE7D0010C644 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2955621F4BE7D0010C644 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		15B2954221F4A30B0010C644 /* WeatherTechCampusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherTechCampusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B2954621F4A30B0010C644 /* WeatherTechCampusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTechCampusUITests.swift; sourceTree = "<group>"; };
 		15B2954821F4A30B0010C644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B2955421F4B4070010C644 /* GetWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeather.swift; sourceTree = "<group>"; };
+		15B2955621F4BE7D0010C644 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				15B2952321F4A30A0010C644 /* AppDelegate.swift */,
+				15B2955421F4B4070010C644 /* GetWeather.swift */,
 				15B2952521F4A30A0010C644 /* ViewController.swift */,
 				15B2952721F4A30A0010C644 /* Main.storyboard */,
 				15B2952D21F4A30A0010C644 /* Assets.xcassets */,
 				15B2952F21F4A30A0010C644 /* LaunchScreen.storyboard */,
 				15B2953221F4A30A0010C644 /* Info.plist */,
 				15B2952A21F4A30A0010C644 /* WeatherTechCampus.xcdatamodeld */,
+				15B2955621F4BE7D0010C644 /* Weather.swift */,
 			);
 			path = WeatherTechCampus;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 				15B2952621F4A30A0010C644 /* ViewController.swift in Sources */,
 				15B2952421F4A30A0010C644 /* AppDelegate.swift in Sources */,
 				15B2952C21F4A30A0010C644 /* WeatherTechCampus.xcdatamodeld in Sources */,
+				15B2955521F4B4070010C644 /* GetWeather.swift in Sources */,
+				15B2955721F4BE7D0010C644 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
